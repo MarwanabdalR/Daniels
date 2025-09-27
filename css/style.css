@@ -129,10 +129,10 @@ p {
 -------------------------------------------------------- */
 .navbar-default {
   padding: 20px 0 30px;
-  background: none;
+  background-color: rgba(21, 3, 3, 0.5);
   border: none;
   border-radius: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -473,7 +473,7 @@ ul li {
 }
 
 
-#pills-all-tab{
+#pills-all-tab {
   position: relative;
 }
 
@@ -608,12 +608,12 @@ ul li {
   position: static;
 }
 
-.indica{
+.indica {
   display: flex;
   justify-content: center;
 }
 
-.indica button{
+.indica button {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -623,7 +623,7 @@ ul li {
   background-color: #888;
 }
 
-.indica .active{
+.indica .active {
   width: 10px;
   height: 10px;
   background-color: #888;
